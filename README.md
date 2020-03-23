@@ -3,7 +3,7 @@ Proyecto BASE para creación de API Rest Utilizando Tomcat, JDBC, Maven y una ba
 
 #Requisitos
 
-1. Netbeans 8.2 o Superior.
+1. Netbeans 8.2 o Superior. (With Tomcat Server)
 2. Base de Datos Mysql. (Con esquema SAKILA de Ejemplo)
 3. Conocimientos Básicos de P.O.O.
 4. Conocimientos Básicos de SQL
