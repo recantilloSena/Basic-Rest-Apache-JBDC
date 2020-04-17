@@ -59,15 +59,15 @@ public class RestController {
     
     
 
-    @POST
-    @Produces({MediaType.APPLICATION_JSON})
-    @Consumes({MediaType.APPLICATION_JSON})
-    @Path("/films/add")
-    public Films adicionarAprendiz(  Films film) throws SQLException, IOException {
-        //TODO return proper representation object
-          this.repo.addFilms(film);
-          return film;
-    }
+//    @POST
+//    @Produces({MediaType.APPLICATION_JSON})
+//    @Consumes({MediaType.APPLICATION_JSON})
+//    @Path("/films/add")
+//    public Films adicionarAprendiz(  Films film) throws SQLException, IOException {
+//        //TODO return proper representation object
+//          this.repo.addFilms(film);
+//          return film;
+//    }
 
     
     
