@@ -12,8 +12,11 @@ import java.io.IOException;
 
 import java.sql.SQLException;
 import java.util.List;
+import javax.ws.rs.Consumes;
 
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+
 
 import javax.ws.rs.Path;
 
@@ -56,15 +59,15 @@ public class RestController {
     
     
 
-//    @POST
-//    @Produces({MediaType.APPLICATION_JSON})
-//    @Consumes({MediaType.APPLICATION_JSON})
-//    @Path("/aprendices/add")
-//    public Aprendiz adicionarAprendiz(  Aprendiz aprendiz) throws SQLException, IOException {
-//        //TODO return proper representation object
-//          this.repo.adicionarAprendiz(aprendiz);
-//          return aprendiz;
-//    }
+    @POST
+    @Produces({MediaType.APPLICATION_JSON})
+    @Consumes({MediaType.APPLICATION_JSON})
+    @Path("/films/add")
+    public Films adicionarAprendiz(  Films film) throws SQLException, IOException {
+        //TODO return proper representation object
+          this.repo.addFilms(film);
+          return film;
+    }
 
     
     
